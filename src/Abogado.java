@@ -10,7 +10,13 @@ public class Abogado extends Empleado{
         return super.getSalario() + 1000;
     }
 
+    @Override
+    public int getHoras (){
+        return super.getHoras() + 5;
+    }
 
-
+    public void mensaje (){
+        System.out.println("Estoy en el tribunal");
+    }
 
 }
